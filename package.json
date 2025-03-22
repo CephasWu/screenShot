@@ -1,0 +1,25 @@
+{
+  "name": "test-screenshot-nodejs",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node bin/www.js",
+    "update-deps": "npm update && npm audit fix"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "^4.3.4",
+    "express": "~4.16.1",
+    "express-generator": "^4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.1.9",
+    "pug": "2.0.0-beta11",
+    "puppeteer": "^24.3.0",
+    "puppeteer-core": "^24.3.0",
+    "save": "^2.9.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
